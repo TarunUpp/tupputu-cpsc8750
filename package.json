@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/TarunUpp/tupputu-cpsc8750#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "timeme.js": "^2.1.0"
   }
 }
