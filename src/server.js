@@ -26,10 +26,10 @@ app.get('/', (req, res) => {
   res.render('welcome', {
 
     name: req.query.name || value,
-    name2: req.query.name || new Date().toLocaleString(),
+    time: req.query.name || new Date().toLocaleString(),
 
-    name3: req.query.name || nextVisitorId,
-    name4: req.query.name || Math.round((new Date().getTime() - startDate.getTime()) / 1000),
+    visitorid: req.query.name || nextVisitorId,
+    timepresentonwebsite: req.query.name || Math.round((new Date().getTime() - startDate.getTime()) / 1000),
 
   });
   startDate = new Date();
