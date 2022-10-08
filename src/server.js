@@ -17,7 +17,6 @@ const port = process.env.PORT || 3000;
 let nextVisitorId = 8;
 var startDate = new Date();
 // Do your operations
-var timeSpentOnPage = 0;
 var value = "World";
 
 // The main page of our website
