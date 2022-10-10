@@ -8,7 +8,6 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.use(cookieParser());
 
-
 // Define the port we will listen on
 // (it will attempt to read an environment global
 // first, that is for when this is used on the real
